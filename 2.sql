@@ -7,4 +7,4 @@ AND fr.rfamseq_acc = rf.rfamseq_acc
 AND tx.tax_string LIKE '%Mammalia%'
 AND f.type LIKE '%snoRNA%'
 AND is_significant = 1 -- exclude low-scoring matches from the same clan
-LIMIT 10;
+LIMIT 5;
